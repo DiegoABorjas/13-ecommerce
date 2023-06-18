@@ -49,8 +49,6 @@ router.post('/', async (req, res) => {
   } catch (err) {
     res.status(400).json(err);
   }
-
-
 });
 
 router.put('/:id', async (req, res) => {
